@@ -6,7 +6,6 @@ cache:
 sudo: false
 install:
 - yarn
-
 deploy:
   skip_cleanup: true
   provider: script
@@ -14,5 +13,5 @@ deploy:
   on:
     branch: master
 before_install:
-- openssl aes-256-cbc -K $encrypted_3e5ea8c25bec_key -iv $encrypted_3e5ea8c25bec_iv
-  -in deploy_travis.enc -out C:\\Users\\IBM_ADMIN\\.ssh\\deploy_travis -d
+- openssl aes-256-cbc -K $encrypted_099f210c87c3_key -iv $encrypted_099f210c87c3_iv 
+  -in deploy_key.enc -out ~/.ssh/deploy_key -d
