@@ -14,4 +14,4 @@ deploy:
     branch: master
 before_install:
 - openssl aes-256-cbc -K $encrypted_099f210c87c3_key -iv $encrypted_099f210c87c3_iv 
-  -in deploy_key.enc -out ~/.ssh/deploy_key -d
+  -in deploy_key.enc -out deploy_key -d
