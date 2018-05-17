@@ -2,7 +2,7 @@
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
-    "test":""
+    "test":"vuepress -V"
   },
   "devDependencies": {
     "vuepress": "^0.8.4"
