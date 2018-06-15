@@ -1,3 +1,4 @@
+---
 title: Support Vector Machines
 Date: 2017-01-17 11:28
 Modified: 2017-01-20 13:15
@@ -7,17 +8,20 @@ Slug: svm
 Authors: Rishabh Chakrabarti
 Summary: Support Vector Machines learnt from the [SVM Tutorial](http://www.svm-tutorial.com/), by Alexandre KOWALCZYK.
 Status: published
-
+---
 
 # SVM
-> Do visit [SVM Tutorial website](http://www.svm-tutorial.com/).
+
+> This is my version of [SVM Tutorial website](http://www.svm-tutorial.com/).
+
+## What is SVM ?
 
 > The main goal in SVM is to design a hyperplane that classifies all training vectors in 2 classes.
 
 * **SVM needs training data thus comes under supervised learning**.
 * **SVM is a classification algorithm**
 
-## Example :
+**Example** :
 
 ![SVM_Training](./assets/svm/2017-01-17-SVM-e7301.png)
 
@@ -52,7 +56,13 @@ Now the following problem exists :
 Thus, we arrive at the term : `Maximum Margin Hyperplane`.
 
 <!-- ![MarginA](./assets/svm/2017-01-17-SVM-c2025.png) -->
+<!-- <figure>
+    <img src='./assets/svm/2017-01-17-SVM-c2025.png' alt='missing' />
+    <figcaption><strong>The Optimal HyperPlane is a no man's land.</strong></figcaption>
+</figure> -->
+
 ![MarginA](./assets/svm/2017-01-17-SVM-c2025.png)
+
 **The Optimal HyperPlane is a no man's land.**
 
 * **This means that the optimal hyperplane will be the one with the biggest margin.**

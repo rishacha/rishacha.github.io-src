@@ -120,6 +120,15 @@ function find (page, items, offset) {
 
 .page
   padding-bottom 2rem
+  .content
+    p
+      max-width 75%
+      img
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    .katex-display
+      max-width 50%
 
 .edit-link.content
   padding-top 0 !important

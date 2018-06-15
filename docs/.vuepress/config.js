@@ -14,16 +14,16 @@ module.exports = {
     title: 'Hello VuePress',
     description: 'Just playing around',
 themeConfig:{
-    sidebar:[
-        {
-            title: 'Group 1',
-            collapsable: false,
-            children: [
-              '/',
-              ['svm','SVM']
-            ]
-          },
-        ],
+    // sidebar:[
+    //     {
+    //         title: 'Group 1',
+    //         collapsable: false,
+    //         children: [
+    //           '/',
+    //           ['svm','SVM']
+    //         ]
+    //       },
+    //     ],
     },
     markdown: {
         // options for markdown-it-anchor
