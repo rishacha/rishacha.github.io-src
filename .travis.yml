@@ -14,7 +14,7 @@ deploy:
     branch: master
 before_install:
 - openssl aes-256-cbc -K $encrypted_099f210c87c3_key -iv $encrypted_099f210c87c3_iv
-  -in deploy_key.enc -out deploy_key -d
-- chmod 600 deploy_key
+  -in github_deploy_key.enc -out github_deploy_key -d
+- chmod 600 github_deploy_key
 - eval $(ssh-agent -s)
-- ssh-add deploy_key
+- ssh-add github_deploy_key
