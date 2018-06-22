@@ -1,7 +1,13 @@
-## Hello 
+---
+title: Blog Introduction
+sidebar: auto
+sidebarDepth: 2
+---
+# Hey there !
 
-<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
+Welcome to my blog. I am Rishabh and let me walk you through the main projects that I want to showcase. I have created a lot of projects and I just don't care if you have a look at it or not. I just wish that you have a look at it and say that they suck so that I can simply die. 
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/github-markdown-css/2.2.1/github-markdown.css"/> -->
-
-$$3^2$$
+## Blue
+Hello
+## Red
+### What?

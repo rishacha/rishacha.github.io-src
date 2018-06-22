@@ -1,13 +1,13 @@
 ---
 title: Support Vector Machines
-Date: 2017-01-17 11:28
-Modified: 2017-01-20 13:15
-Category: Learning
-Tags: SVM, Linear-Kernels
-Slug: svm
-Authors: Rishabh Chakrabarti
-Summary: Support Vector Machines learnt from the [SVM Tutorial](http://www.svm-tutorial.com/), by Alexandre KOWALCZYK.
-Status: published
+# Date: 2017-01-17 11:28
+# Modified: 2017-01-20 13:15
+# Category: Learning
+meta:
+  - name: description
+    content: Support Vector Machines learnt from the [SVM Tutorial](http://www.svm-tutorial.com/), by Alexandre KOWALCZYK.
+  - name: keywords
+    content: SVM, Linear-Kernels
 ---
 
 # SVM
