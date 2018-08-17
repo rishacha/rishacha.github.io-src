@@ -68,4 +68,8 @@ export default {
     padding-left 4rem
     .can-hide
       display none
+
+.home-link
+  position absolute
+  left 5%;
 </style>

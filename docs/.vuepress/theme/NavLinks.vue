@@ -1,5 +1,6 @@
 <template>
   <nav class="nav-links" v-if="userLinks.length || repoLink">
+    
     <!-- user links -->
     <div
       class="nav-item"
