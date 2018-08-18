@@ -5,7 +5,7 @@ set -e
 
 # build
 cd gatsby-starter-dimension/
-yarn build
+npm build
 # navigate into the build output directory
 cd public/
 
