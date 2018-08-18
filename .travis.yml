@@ -10,7 +10,9 @@ install:
 deploy:
   skip_cleanup: true
   provider: script
-  script: bash ../deploy.sh
+  script: 
+    - pwd
+    - bash ../deploy.sh
   on:
     branch: master
 before_install:
