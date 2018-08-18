@@ -6,7 +6,7 @@ cache:
 sudo: false
 install:
   - cd gatsby-starter-dimension/
-  - npm install
+  - yarn
 deploy:
   skip_cleanup: true
   provider: script
