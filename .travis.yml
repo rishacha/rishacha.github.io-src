@@ -5,7 +5,8 @@ cache:
   - node_modules
 sudo: false
 install:
-- npm install
+  - cd gatsby-starter-dimension/
+  - npm install
 deploy:
   skip_cleanup: true
   provider: script
