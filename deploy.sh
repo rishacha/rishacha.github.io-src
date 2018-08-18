@@ -4,7 +4,7 @@
 set -e
 
 # build
-cd gatsby-starter-dimension/
+#cd gatsby-starter-dimension/
 yarn build
 # navigate into the build output directory
 cd public/
