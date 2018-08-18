@@ -1,0 +1,20 @@
+language: node_js
+cache:
+  yarn: true
+  directories:
+  - node_modules
+sudo: false
+install:
+- yarn
+deploy:
+  skip_cleanup: true
+  provider: script
+  script: bash ./deploy.sh
+  on:
+    branch: master
+before_install:
+- openssl aes-256-cbc -K $encrypted_099f210c87c3_key -iv $encrypted_099f210c87c3_iv
+  -in github_deploy_key.enc -out github_deploy_key -d
+- chmod 600 github_deploy_key
+- eval $(ssh-agent -s)
+- ssh-add github_deploy_key
